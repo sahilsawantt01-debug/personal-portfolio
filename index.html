@@ -1,39 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>personal potfolio</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+    <title>Sahil's Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-                
-    <header class="header">
-        <a href="#" class="logo">Sahil Sawant</a>
 
-        <ul class="nav-links">
-            <li>
-                <a href="#about">about</a>
-            </li>
-            <li>
-                <a href="#projects">projects</a>
-            </li>
-            <li>
-                <a href="#skills">skills</a>
-            </li>
-            <li>
-                <a href="#contact">contact</a>
-            </li>
-        </ul>
-        <i class="fa-solid fa-bars">menu</i>
+    <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container">
 
-        <button class="visit-btn"> Visit Github</button>
-    </header>
-        
+        <a class="navbar-brand fs-4" href="#home">
+            Sahil's Portfolio
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#certificates">Certificates</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </div>
+
+        </div>
+    </div>
+</nav>
 
 
+    <!-- Home Section -->
+<section id="home" class="container py-5">
+    <div class="row align-items-center">
 
-    <script src="./script.js"></script>
+        <div class="col-md-7">
+            <h1 class="display-4">Hello, I'm Sahil</h1>
+
+            <h2 class="text-primary">
+                Full Stack Web Development Learner
+            </h2>
+
+            <p class="lead">
+                I am a BCA graduate currently learning Full Stack Web
+                Development. I have completed SQL and I am currently
+                learning HTML, CSS, JavaScript and Bootstrap.
+            </p>
+
+            <a href="#projects" class="btn btn-primary">
+                View My Projects
+            </a>
+        </div>
+
+        <div class="col-md-5 text-center">
+            <img src="./img/profile.jpeg" alt="Sahil Profile Photo"
+                 class="img-fluid rounded-circle">
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- About Section -->
+<section id="about" class="container py-5">
+    <h2 class="text-center mb-4">About Me</h2>
+
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <p>
+                I am a BCA graduate currently learning Full Stack Web Development
+                at Fortune Cloud, Pune. I have completed SQL and I am currently
+                learning HTML, CSS, JavaScript and Bootstrap.
+            </p>
+
+            <p>
+                I enjoy learning new technologies and applying my knowledge
+                through practical projects. My goal is to improve my technical
+                skills and build useful, user-friendly web applications.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Skills Section -->
+<section id="skills" class="container py-5">
+    <h2 class="text-center mb-4">My Skills</h2>
+
+    <div class="row">
+
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">SQL</h5>
+                    <p class="card-text">
+                        Database queries, tables and SQL concepts.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">HTML</h5>
+                    <p class="card-text">
+                        Creating structured and semantic web pages.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">CSS</h5>
+                    <p class="card-text">
+                        Styling web pages using selectors and layouts.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">JavaScript</h5>
+                    <p class="card-text">
+                        Learning JavaScript basics and programming concepts.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Bootstrap</h5>
+                    <p class="card-text">
+                        Creating responsive layouts using Bootstrap classes.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+   <!-- Projects Section -->
+<section id="projects" class="container py-5">
+    <h2 class="text-center mb-4">My Projects</h2>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Projects Coming Soon</h5>
+
+                    <p class="card-text">
+                        I am currently working on web development projects
+                        using HTML, CSS, Bootstrap, JavaScript and SQL.
+                        My projects will be added here as I complete them.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Certificates Section -->
+<section id="certificates" class="container py-5">
+    <h2 class="text-center mb-4">Certificates</h2>
+
+    <div class="row">
+
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">
+                        Introduction to Data Science
+                    </h5>
+                    <p class="card-text">
+                        Cisco Networking Academy
+                    </p>
+                    <a href="./img/IntrotoDataScience.pdf" class="btn btn-primary">
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">
+                        Cyber Job Simulation
+                    </h5>
+                    <p class="card-text">
+                        Deloitte
+                    </p>
+                    <a href="./img/Deloitte Australia Cyber Completion Certificate.pdf" class="btn btn-primary">
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">
+                        Web Development
+                    </h5>
+                    <p class="card-text">
+                        Disha Institute
+                    </p>
+                    <a href="#" class="btn btn-primary">
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+<section id="contact" class="container py-5">
+    <h2 class="text-center mb-4">Contact Me</h2>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+
+            <p>
+                If you would like to connect with me, you can reach me
+                through the following platforms.
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:sahilsawantt01@gmail.com">
+                    sahilsawantt01@gmail.com
+                </a>
+            </p>
+
+            <p>
+                <strong>LinkedIn:</strong>
+                <a href="https://www.linkedin.com/in/sahil-sawant-ab3767399/" target="_blank">Sahil Sawant</a>
+            </p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/sahilsawantt01-debug" target="_blank">Sahil Sawant</a>
+            </p>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2026 Sahil. All Rights Reserved.</p>
+</footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
